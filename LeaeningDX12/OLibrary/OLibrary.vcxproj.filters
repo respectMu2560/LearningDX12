@@ -13,15 +13,21 @@
     <Filter Include="Common">
       <UniqueIdentifier>{740db591-24aa-41c4-9c0a-9a980d27631b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ObjectCore\Private\Class">
+      <UniqueIdentifier>{9ab8f366-1068-4057-921e-61ce68ec7f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectCore\Public\Class">
+      <UniqueIdentifier>{c203bade-be45-41b0-b7ec-bc68b856989f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClassField.h">
-      <Filter>ObjectCore\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ClassField.cpp">
-      <Filter>ObjectCore\Private</Filter>
+    <ClCompile Include="x64\ObjectCore\Private\Class\ClassField.cpp">
+      <Filter>ObjectCore\Private\Class</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="x64\ObjectCore\Public\Class\ClassField.h">
+      <Filter>ObjectCore\Public\Class</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
