@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+*.tlog
+/LeaeningDX12/OLibrary/x64/Debug/*.pdb
+/LeaeningDX12/OLibrary/x64/Debug/*.idb
+/LeaeningDX12/OLibrary/x64/Debug/*.log
+/LeaeningDX12/x64/Debug/*.pdb
+/LeaeningDX12/.vs/LeaeningDX12/v17/Current/ipch/AutoPCH/18de70fd994b69ed/*.ipch
+/LeaeningDX12/.vs/LeaeningDX12/v17/Current/*.db-wal
+/LeaeningDX12/.vs/LeaeningDX12/v17/Current/*.db-shm
+/LeaeningDX12/.vs/LeaeningDX12/v17/Current/*.db
+/LeaeningDX12/.vs/LeaeningDX12/v17/Current/*.opendb
