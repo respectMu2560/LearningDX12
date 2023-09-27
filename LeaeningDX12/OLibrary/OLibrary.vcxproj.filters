@@ -19,15 +19,57 @@
     <Filter Include="ObjectCore\Public\Class">
       <UniqueIdentifier>{c203bade-be45-41b0-b7ec-bc68b856989f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ObjectCore\Public\ObjectInterface">
+      <UniqueIdentifier>{4e6ee30f-2092-4626-88da-e7ef702a9a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectCore\Private\ObjectInterface">
+      <UniqueIdentifier>{554327d2-3302-477c-94fb-3737fcadaa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Public">
+      <UniqueIdentifier>{18d4744a-58ee-4b3c-a45e-39dbc93df21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Private">
+      <UniqueIdentifier>{7f3aedb6-048f-4621-b4a3-cbb4324a3df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Public\Definition">
+      <UniqueIdentifier>{80cbb605-5bc9-4925-a3f4-01ae27e61e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Public\Delegate">
+      <UniqueIdentifier>{4b10293e-ce0c-4c0a-acd1-df448ed4e8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Private\Delegate">
+      <UniqueIdentifier>{7aaee68f-26e5-4bdc-a6d2-c7fad7a636e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Public\Container">
+      <UniqueIdentifier>{1375b8ec-9f21-402b-90cd-5497c04495c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="x64\ObjectCore\Private\Class\ClassField.cpp">
+    <ClCompile Include="ObjectCore\Private\Class\ClassField.cpp">
       <Filter>ObjectCore\Private\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCore\Private\ObjectInterface\ObjectInterface.cpp">
+      <Filter>ObjectCore\Private\ObjectInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\Delegate\Delegate.cpp">
+      <Filter>Common\Private\Delegate</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="x64\ObjectCore\Public\Class\ClassField.h">
+    <ClInclude Include="ObjectCore\Public\Class\ClassField.h">
       <Filter>ObjectCore\Public\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCore\Public\ObjectInterface\ObjectInterface.h">
+      <Filter>ObjectCore\Public\ObjectInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Definition\CommonDefine.h">
+      <Filter>Common\Public\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Delegate\Delegate.h">
+      <Filter>Common\Public\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Container\ContainerTypes.h">
+      <Filter>Common\Public\Container</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

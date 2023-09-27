@@ -78,7 +78,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)x64\ObjectCore\Public;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)Common\Public;$(ProjectDir)ObjectCore\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -141,10 +141,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="x64\ObjectCore\Public\Class\ClassField.h" />
+    <ClInclude Include="Common\Public\Container\ContainerTypes.h" />
+    <ClInclude Include="Common\Public\Definition\CommonDefine.h" />
+    <ClInclude Include="Common\Public\Delegate\Delegate.h" />
+    <ClInclude Include="ObjectCore\Public\Class\ClassField.h" />
+    <ClInclude Include="ObjectCore\Public\ObjectInterface\ObjectInterface.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="x64\ObjectCore\Private\Class\ClassField.cpp" />
+    <ClCompile Include="Common\Private\Delegate\Delegate.cpp" />
+    <ClCompile Include="ObjectCore\Private\Class\ClassField.cpp" />
+    <ClCompile Include="ObjectCore\Private\ObjectInterface\ObjectInterface.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
