@@ -71,5 +71,8 @@
     <ClInclude Include="Common\Public\Container\ContainerTypes.h">
       <Filter>Common\Public\Container</Filter>
     </ClInclude>
+    <ClInclude Include="Common\Public\Delegate\MulticastDelegate.h">
+      <Filter>Common\Public\Delegate</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

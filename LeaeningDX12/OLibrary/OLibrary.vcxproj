@@ -144,6 +144,7 @@
     <ClInclude Include="Common\Public\Container\ContainerTypes.h" />
     <ClInclude Include="Common\Public\Definition\CommonDefine.h" />
     <ClInclude Include="Common\Public\Delegate\Delegate.h" />
+    <ClInclude Include="Common\Public\Delegate\MulticastDelegate.h" />
     <ClInclude Include="ObjectCore\Public\Class\ClassField.h" />
     <ClInclude Include="ObjectCore\Public\ObjectInterface\ObjectInterface.h" />
   </ItemGroup>
